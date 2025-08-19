@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    width: 1150px;
+    padding: 20px 100px;
+}
+
+.mainco {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.mainco i {
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+header h3 {
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+.inspiration h5:hover{
+    text-decoration-line: underline;
+}
+.mainnav {
+    /* padding: 20px 20px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inspiration {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inspiration a {
+    /* display: flex; */
+    display: inline;
+    gap: 0px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 31px;
+    bottom: 3px
+}
+
+.slp h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.mainheading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.mainheading h1,button{
+    margin-bottom: 15px;
+}
+.mainheading p{
+    margin-bottom: 25px;
+}
+.mainheading button {
+    background-color: white;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 13px 18px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+ button:hover{
+      box-shadow:  0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+#first{
+    background-color: #f1f1f1;
+}
+.firstflex{
+    display: flex;
+    transition: box-shadow 1s ease;
+    gap: 10px;
+}
+ .first :hover{
+    box-shadow:  0px 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+.first i{
+position: relative;
+top: 39px;
+left: 349px;
+font-size: 19px;
+background-color: #f1f1f1;
+opacity: 0;
+}
+ .first:hover i{
+    opacity: 1;
+ }
+ .center{
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+ }
+ .center img{
+    width: 100%;
+ }
+ .first p:hover{
+    text-decoration-line: underline;
+ }
+ #second{
+    padding: 100px 0px;
+ }
+ .secondfelx{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .second h5{
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .second h5,p{
+margin-bottom: 8px;
+ }
+ .login{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    justify-content: center;
+ }
+ .login button{
+    
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+ }
+ .login i{
+    color: white;
+    position: relative;
+    right: 28px;
+    bottom: 6px;
+ }
+ .second{
+    padding: 40px 34px;
+    border: 0.5px solid #d9d2d2;
+    box-shadow:  0px 2px 10px rgba(0, 0, 0, 0.1);
+  
+ }
+ 
+
+
+
